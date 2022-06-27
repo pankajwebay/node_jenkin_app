@@ -11,10 +11,5 @@ pipeline {
         sh 'npm i -save express'
       }
     }     
-    stage('Test') {
-      steps {
-         sh 'node app.js'
-      }
-    }             
-  }
+ 
 }
